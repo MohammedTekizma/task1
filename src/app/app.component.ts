@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'task1';
+  showFirst = true;
+  mID = "hello@gmail.com";
+  name = "hello";
+  pwd = "helloworld";
+  pwd2 = "helloworld";
+  lct = "Bangalore";
+  toggle(){
+  this.showFirst = !this.showFirst;
+  }
 }
